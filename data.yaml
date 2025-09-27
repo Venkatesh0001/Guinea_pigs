@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['fem', 'mae', 'mal']
+
+roboflow:
+  workspace: grouping
+  project: breading
+  version: 10
+  license: Private
+  url: https://universe.roboflow.com/grouping/breading/dataset/10
